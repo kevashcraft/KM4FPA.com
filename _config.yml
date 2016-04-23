@@ -1,0 +1,28 @@
+# Site settings
+title: "KM4FPA - Kevin's Amateur Radio Station"
+email: kevin@km4fpa.com
+description: "I am KM4FPA, Kevin from Auburndale, a ham radio station in Central Florida. I am an EagleNet and SKYWARN NCS, proud member of the ARRL, and antenna junkie."
+baseurl: ""
+url: "https://www.km4fpa.com"
+
+# Build settings
+markdown: kramdown
+
+collections:
+  contacts:
+    output: true
+    permalink: /qso/:year/:title/
+  projects:
+    output: true
+    permalink: /project/:year/:title/
+
+defaults:
+  - scope:
+      type: contacts
+    values:
+      layout: contact
+  - scope:
+      type: projects
+    values:
+      layout: project
+

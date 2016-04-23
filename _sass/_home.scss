@@ -1,0 +1,60 @@
+/**
+ * QTH Styling
+ */
+.home {
+
+    header.page {
+
+        text-align: center;
+
+        h1 {
+            display: inline-block;
+            margin-bottom: 5px;
+            font-size: 42px;
+        }
+
+        h2 {
+            font-size: 36px;
+        }
+
+        img {
+            height: 35px;
+            margin: 0 0 15px 15px;
+        }
+    }
+
+}
+
+section.basic {
+    margin: 35px;
+    max-width: 1000px;
+
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    header {
+        hr {
+            display: inline-block;
+            width: 33%;
+            margin-bottom: 5px;
+        }
+        h1 {
+            display: inline-block;
+
+        }
+    }
+    p {
+        font-size: 26px;
+    }
+}
+
+.inline-block {
+    display: inline-block;
+
+}
+

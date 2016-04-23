@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KM4FPA - Kevin&#39;s Amateur Radio Station</title>
+    <description>I am KM4FPA, Kevin from Auburndale, a ham radio station in Central Florida. I am an EagleNet and SKYWARN NCS, proud member of the ARRL, and antenna junkie.</description>
+    <link>https://www.km4fpa.com/</link>
+    <atom:link href="https://www.km4fpa.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 23 Apr 2016 13:44:33 -0400</pubDate>
+    <lastBuildDate>Sat, 23 Apr 2016 13:44:33 -0400</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>50 Feet</title>
+        <description>&lt;ol&gt;
+  &lt;li&gt;Plant 1 1/4” EMT 9’ into the ground&lt;/li&gt;
+  &lt;li&gt;Sleave 1 1/2” EMT over it and plant 1’ into ground&lt;/li&gt;
+  &lt;li&gt;Plant copper ground rod 8’ into the ground&lt;/li&gt;
+  &lt;li&gt;Attach UBolts and plate&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sun, 17 Jan 2016 23:37:16 -0500</pubDate>
+        <link>https://www.km4fpa.com/antennas/2016/01/17/50-feet.html</link>
+        <guid isPermaLink="true">https://www.km4fpa.com/antennas/2016/01/17/50-feet.html</guid>
+        
+        
+        <category>antennas</category>
+        
+      </item>
+    
+      <item>
+        <title>Tuning the Dipole</title>
+        <description>&lt;p&gt;Getting an antenna to work without an antenna tuner is a confusing, tricky project. The radio (IC-7100) has an swr meter but it only shows 1:1 to 1:3 with a fuzzy meter for everything above, so if the antenna is not close to the target frequency there’s not much useful information. Also, the radio only transmits in the amateur bands so there’s no way (which would be illegal anyway) to keep looking for the frequency that antenna is currently resonate on to even get a baring to calculate the needed adjustments.&lt;/p&gt;
+
+&lt;p&gt;So, what do? Well, after fixing a couple of big issues that were causing a high swr on their own (antenna laying on tree branch, wire caught between fence posts, shoddy solder joint), the antenna which was cut to the right length (468/freq) was within the meter’s range! The swr was too high at 7.15MHz (center of the 40m band) but the radio showed the ressonate frequency was somewhere a bit below 7MHz. So I looked at an antenna length chart to get an idea of the difference in length between 6.8ish and 7.15MHz antennas then trimmed the wires accordingly.&lt;/p&gt;
+
+&lt;p&gt;And then after doing that a couple more times things were right spot on! I had to do this again when I attached the additional wire to work 80m and ran into some difficulties when I was getting a really high swr but couldn’t figure out why and didn’t know what the antenna was doing. Luckily after inspecting all of the conections and untangling a string from the tree the antenna was back on the meter and after a few more dropping and raising the arms the copper was tuned and was matching 1:1 on 7.15MHz and 3.94MHz (an NTS net operates here). So YAY!!!&lt;/p&gt;
+
+&lt;p&gt;The next step will be setting it up to change lengths without having to raise and lower the arms…&lt;/p&gt;
+</description>
+        <pubDate>Sun, 17 Jan 2016 23:37:16 -0500</pubDate>
+        <link>https://www.km4fpa.com/antennas/2016/01/17/tuning-the-dipole.html</link>
+        <guid isPermaLink="true">https://www.km4fpa.com/antennas/2016/01/17/tuning-the-dipole.html</guid>
+        
+        
+        <category>antennas</category>
+        
+      </item>
+    
+      <item>
+        <title>Merry Christmas, Kevin</title>
+        <description>&lt;p&gt;This Christmas I got a gift that made me more excited than any other I’d received in my now thirty years of life; I got my very first HF radio! It’s an ICOM IC-7100 and is a very cool modern radio with a micro usb connection for easy computer control.&lt;/p&gt;
+
+&lt;p&gt;There’s a lot more to come for this radio; right now all I have is a power supply and VHF/UHF antenna. I’ve built a few ground-planes and a yagi, but nothing for over 2 meters.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 17 Jan 2016 23:37:16 -0500</pubDate>
+        <link>https://www.km4fpa.com/radios/2016/01/17/merry-christmas-kevin.html</link>
+        <guid isPermaLink="true">https://www.km4fpa.com/radios/2016/01/17/merry-christmas-kevin.html</guid>
+        
+        
+        <category>radios</category>
+        
+      </item>
+    
+      <item>
+        <title>Cheap 30&#39; Tower with EMT</title>
+        <description>&lt;p&gt;The other day I was walking through the store and saw EMT (electrical metal tubing). When I sat 10’ metal pipes for less than $5 I was imidiately interested! They were in 1/2” ($1.70), 3/4” ($2.60), 1” ($6.40), and 1 1/2” ($13).&lt;/p&gt;
+
+&lt;p&gt;I first tried the 1/2” inside the 3/4” and was able to get to 20’ easily (they were mounted to the ground with a 5’ 1/2” piece driven into the Earth). This setup worked well for holding up the next couple of antennas that I was working on, one of which was a vhf yagi (3’ x 6’).&lt;/p&gt;
+
+&lt;p&gt;Progressing on the obvious next step was to get the 1” pipe for the base and increase the height by 10’. This worked great and the ground plane that I moved back to (the yagi’s are tricky without a tuner) was able to get to 30’ and stay there throughout a windy day.&lt;/p&gt;
+
+&lt;p&gt;In addition to being strong enough to hold up some light antennas the tubing it light and able to be lifted up horizontally or telescoped up from the top of a ladder.&lt;/p&gt;
+
+&lt;p&gt;This tower has become my permanent main structure and acts as the mast for the 2m ground plane and holds up the center of the 80m dipole. It stays at about 25’ but doesn’t mind going up to 30’ (especially with the arms of the dipole guying it).&lt;/p&gt;
+
+&lt;p&gt;The design:&lt;/p&gt;
+
+&lt;p&gt;One pole inside of the other, overlapped by about a foot. Using either a clamp to keep the upper pipe up, or drilling holes and using bolts to lock the pipes tightly together. I found that driving a full 10’ length of the 2nd sized pipe worked best as a base (ie 3/4” base if the thickest pipe is 1”).&lt;/p&gt;
+
+&lt;p&gt;I built one other mast that was 20’ to hold up the arm of the dipole and guyed to handle the lateral tension.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 17 Jan 2016 23:37:16 -0500</pubDate>
+        <link>https://www.km4fpa.com/towers/2016/01/17/cheap-30-foot-tower-with-emt.html</link>
+        <guid isPermaLink="true">https://www.km4fpa.com/towers/2016/01/17/cheap-30-foot-tower-with-emt.html</guid>
+        
+        
+        <category>towers</category>
+        
+      </item>
+    
+      <item>
+        <title>Merry Christmas, Kevin</title>
+        <description>&lt;p&gt;This Christmas I got a gift that made me more excited than any other I’d received in my now thirty years of life; I got my very first HF radio! It’s an ICOM IC-7100 and is a very cool modern radio with a micro usb connection for easy computer control.&lt;/p&gt;
+
+&lt;p&gt;There’s a lot more to come for this radio; right now all I have is a power supply and VHF/UHF antenna. I’ve built a few ground-planes and a yagi, but nothing for over 2 meters.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 17 Jan 2016 23:37:16 -0500</pubDate>
+        <link>https://www.km4fpa.com/radios/2016/01/17/40m-inverted-dipole.html</link>
+        <guid isPermaLink="true">https://www.km4fpa.com/radios/2016/01/17/40m-inverted-dipole.html</guid>
+        
+        
+        <category>radios</category>
+        
+      </item>
+    
+      <item>
+        <title>A First Post</title>
+        <description>&lt;p&gt;Hello, World!&lt;/p&gt;
+
+&lt;p&gt;Today I’m going to setup &lt;a href=&quot;https://www.km4fpa.com&quot;&gt;km4fpa.com&lt;/a&gt;, again. This will be the second edition of the site and will hopefully keep progressing.&lt;/p&gt;
+
+&lt;p&gt;Today I put a 6 element vhf yagi 30’ up in the air for an initial experiment into dxing on the 2m band. The radio was much quieter than I’d have hoped when I fist listened, but I’ve spent the past several hours researching vhf distance expectations.&lt;/p&gt;
+
+&lt;p&gt;Thanks for the read!&lt;/p&gt;
+
+&lt;p&gt;73, KM4FPA&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 Jan 2016 20:31:16 -0500</pubDate>
+        <link>https://www.km4fpa.com/hello/2016/01/07/a-first-post.html</link>
+        <guid isPermaLink="true">https://www.km4fpa.com/hello/2016/01/07/a-first-post.html</guid>
+        
+        
+        <category>hello</category>
+        
+      </item>
+    
+      <item>
+        <title>My First 40m Dipole (inverted V)</title>
+        <description>&lt;p&gt;There’s just so many options. Kinda. My lot is 130’x50’ with a tree in the front yard and back, both about 30’ max.&lt;/p&gt;
+
+&lt;p&gt;So the question is what do I want? Well, honestly I’m writing this a few weeks after the fact and am looking back with 20/20 vision. So what did I want? What happened?&lt;/p&gt;
+
+&lt;p&gt;Well I was insterested in a lot of things (yagi’s, sdr’s, finally getting on the hf air) and I had a hard time focusing on just one. This led me to cutting down a few tangling branches, stringing strings as high as I could, and building a couple of yagi’s for the tower as well as sticking a raspberry pi in a 4” stub of pvc and raising it up.&lt;/p&gt;
+
+&lt;p&gt;Luckily one of the projects was a 40m inverted v. This antenna is a stub of pvc where rg58 coax meets two 14awg 1/4l long pieces of wire that are tied down at the ends. Most of the other projects turned out to be fun learning experiences but nothing worthwhile to keep up, except for this antenna.&lt;/p&gt;
+
+&lt;p&gt;I do not have an antenna tuner, but the 7100 does have a built-in swr meter that will measure from 1:1 to 1:3+ so if I get the design close then I can tune it with trial and error, trimming the length.&lt;/p&gt;
+
+&lt;p&gt;This antenna, after I trimmed another couple of branches and made sure the wires were taught and clear of obstructions, was within range of the ICOM’s swr meter and I was able to get a 1:1 match at 7.15MHz after trimming a foot and a half or so off each end.&lt;/p&gt;
+
+&lt;p&gt;I’m located in Florida and can clearly hear stations in the South East US (AL, GA, SC). This makes sense because of the low height of the antenna (peak at 20’) causes a high takeoff angle.&lt;/p&gt;
+
+&lt;p&gt;The next morning I heard the South Cars net for the first time and was able to get a signal report from a station in Alabama (five-by-nine :).&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 06 Jan 2016 23:37:16 -0500</pubDate>
+        <link>https://www.km4fpa.com/antennas/2016/01/06/40m-inverted-dipole.html</link>
+        <guid isPermaLink="true">https://www.km4fpa.com/antennas/2016/01/06/40m-inverted-dipole.html</guid>
+        
+        
+        <category>antennas</category>
+        
+      </item>
+    
+      <item>
+        <title>First PVC Tower/Mast</title>
+        <description>&lt;p&gt;Since I learned about line-of-sight and how height was everything when it came to radio reception. There’s a &lt;a href=&quot;http://wp.ni4ce.org&quot;&gt;great repeater system&lt;/a&gt; here that I could keyup the near-by station but couldn’t reach any of the other locations with my 5watt baofeng.&lt;/p&gt;
+
+&lt;p&gt;I wanted to be a Net Control Station (NCS) and one of the requirements (really the only one) was that you’d be able to reach multiple repeater stations. This is why I built the first tower.&lt;/p&gt;
+
+&lt;p&gt;We started with PVC. Originally I was trying a thick base as a loading shaft, and then progressed to using some fishing line (300lb thread for $25 on ebay, one of my most used radio purchases) to pull up the different sections. The function worked exactly as I’d hoped and 30’ worth of PVC stretched into the sky… but that puppy leaned. A lot.&lt;/p&gt;
+
+&lt;p&gt;So after the initial setup, the tower stayed at 20’ so it’d be stable but even there it worked perfectly as I needed! At the top was a 2m ground plane (light weight, 4 wires + barell connector) so it didn’t have too much trouble keeping it up.&lt;/p&gt;
+
+&lt;p&gt;Some of the things I tried with the pvc: using guy wire (the fishing line) - this worked stabilized the top at 20’ but still didn’t allow me to go above 30’, pulling it up horizontally (not as a telescope) - the pvc does not like that much tension.&lt;/p&gt;
+
+&lt;p&gt;In the end I learned that pvc is good for up to 20’ for temporary setups.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 14 Apr 2015 14:27:36 -0400</pubDate>
+        <link>https://www.km4fpa.com/towers/2015/04/14/first-pvc-mast.html</link>
+        <guid isPermaLink="true">https://www.km4fpa.com/towers/2015/04/14/first-pvc-mast.html</guid>
+        
+        
+        <category>towers</category>
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<div class="nav-panel">
+	<h1>Recent Activity</h1>
+		<ul>
+			{% for qso in site.qsos %}
+				<li>
+					<span class="post-meta">{{ qso.date | date: "%b %-d, %Y" }}</span>
+					<h2>
+						<a class="post-link" href="{{ qso.url | prepend: site.baseurl }}">{{ qso.title }}</a>
+					</h2>
+				</li>
+			{% endfor %}
+		</ul>
+
+
+	<h1>Recent QSO</h1>
+		<ul>
+			{% for activity in site.activities %}
+				<li>
+					<span class="post-meta">{{ activity.date | date: "%b %-d, %Y" }}</span>
+					<h2>
+						<a class="post-link" href="{{ activity.url | prepend: site.baseurl }}">{{ activity.title }}</a>
+					</h2>
+				</li>
+			{% endfor %}
+		</ul>
+</div>
