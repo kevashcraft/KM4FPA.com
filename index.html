@@ -1,17 +1,11 @@
 ---
-layout: home
+layout: main
+title: Kevin from Auburndale
+type: home
 ---
 
 <div class="home">
 
-  <header class="page">
-    <div>
-      <h1>KM4FPA</h1>
-      <img src="/img/united-states-of-america-flag.gif">
-    </div>
-    <h2>Kevin from Auburndale</h2>
-  </header>
-  
   <section class="basic">
 
     <h1 class="bold">Hello World</h1>
@@ -25,7 +19,7 @@ layout: home
       <hr><h1 class="hr">My Station</h1><hr>
     </header>
     <p>
-      My primary radio is an Icom 7100, connected to a dipole and a ground-plane antenna.<br>
+      My <b>primary radio is an Icom 7100</b>, connected to a dipole and a ground-plane antenna.<br>
       There's also a Raspberry Pi, hooked-up to the USB port, used for digital work.<br>
     </p>
   </section>
@@ -40,13 +34,13 @@ layout: home
     </p>
     <h2>Nets</h2>
     <p>
-      Every Tuesday I run the EagleNet on <a href="http://wp.ni4ce.org" title="West Central Florida Linked Repeaters">NI4CE</a>. The EagleNet is a National Traffic System (<a href="http://www.arrl.org/nts" title="ARRL NTS" target="_blank">NTS</a>) Net and is the first real thing I got involved with on the radio. It runs every day at 8:30pm here in Central Florida.
+      Every Tuesday I run the <b>EagleNet</b> on <a href="http://wp.ni4ce.org" title="West Central Florida Linked Repeaters">NI4CE</a>. The EagleNet is a National Traffic System (<a href="http://www.arrl.org/nts" title="ARRL NTS" target="_blank">NTS</a>) Net and is the first real thing I got involved with on the radio. It runs every day at 8:30pm here in Central Florida.
     </p>
     <p>
-      Every third Tuesday I run the <a href="http://skywarn.org/" title="National Weather Service SKYWARN" target="_blank">SKYWARN</a> net from the <a href="http://www.srh.noaa.gov/tbw/" title="NWS in Ruskin" target="_blank">National Weather Service Center</a> in Ruskin, FL.
+      Every third Tuesday I run the <b><a href="http://skywarn.org/" title="National Weather Service SKYWARN" target="_blank">SKYWARN</a></b> net from the <a href="http://www.srh.noaa.gov/tbw/" title="NWS in Ruskin" target="_blank">National Weather Service Center</a> in Ruskin, FL.
     </p>
     <p>
-      Recently, I've also been checking into the Florida Phone Traffic Net (<a href="http://fptn3940.net/" title="Start your day the FTPN way" target="_blank">FPTN</a>) which is another part of the NTS.
+      Recently, I've also been checking into the <b>Florida Phone Traffic Net</b> (<a href="http://fptn3940.net/" title="Start your day the FTPN way" target="_blank">FPTN</a>) which is another part of the NTS.
     </p>
   </section>
 
@@ -61,15 +55,16 @@ layout: home
       <b>Digital Modes</b> have always been interesting and enigmatic, but last week (04-18-2016) I made my first contact thanks to <a href="http://km4epr.com/" target="Nick Nick" target="_blank">KM4EPR</a>. PSK31 was much nicer than I expected! I'd like to further this on and make more digital contacts and get involved with <a href="http://wsprnet.org/drupal/" title="WSPRNet" target="_blank">WSPRNet</a>.
     </p>
     <p>
-      In Florida, Hurricane Season's just around the corner and having a reliable station is important. Because of this, and since it's just seems really cool, I want to setup a <b>solar panel and battery</b> so that my radio can be on 24/7 without a dependancy on the power grid (and without the noisy MFJ power supple).
+      In Florida, Hurricane Season's just around the corner and having a reliable station is important. Because of this, and since it's just seems really cool, I want to setup a <b>solar panel and battery</b> so that my radio can be on 24/7 without a dependancy on the power grid (and without the noisy MFJ power supply).
     </p>
   </section>
   <section class="basic">
     <header>
-      <hr><h1 class="hr">Contacts</h1><hr>
+      <hr><h1 class="hr"><a href="/logbook/" title="KM4FPA's Logbook">Recent QSO's</a></h1><hr>
     </header>
     <ul>
-      {% for contact in site.contacts %}
+      {% assign contacts = (site.contacts | reverse) %}
+      {% for contact in contacts limit:3 %}
         <li>
           <span class="post-meta">{{ contact.date | date: "%b %-d, %Y" }}</span>
           <h2>
@@ -81,10 +76,11 @@ layout: home
   </section>
   <section class="basic">
     <header>
-      <hr><h1 class="hr">Projects</h1><hr>
+      <hr><h1 class="hr"><a href="/projects/" title="KM4FPA's Projects">Recent Projects</a></h1><hr>
     </header>
     <ul>
-      {% for project in site.projects %}
+      {% assign projects = (site.projects | reverse) %}
+      {% for project in projects limit:3 %}
         <li>
           <span class="post-meta">{{ project.date | date: "%b %-d, %Y" }}</span>
           <h2>

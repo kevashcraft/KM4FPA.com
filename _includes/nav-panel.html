@@ -1,26 +1,30 @@
 <div class="nav-panel">
-	<h1>Recent Activity</h1>
+	<section>
+		<h1><a href="/logbook/" title="KM4FPA's Logbook">Recent QSO's</a></h1>
 		<ul>
-			{% for qso in site.qsos %}
+			{% assign contacts = (site.contacts | reverse) %}
+			{% for contact in contacts limit:3 %}
 				<li>
-					<span class="post-meta">{{ qso.date | date: "%b %-d, %Y" }}</span>
+					<span class="post-meta">{{ contact.date | date: "%b %-d, %Y" }}</span>
 					<h2>
-						<a class="post-link" href="{{ qso.url | prepend: site.baseurl }}">{{ qso.title }}</a>
+						<a class="post-link" href="{{ contact.url | prepend: site.baseurl }}">{{ contact.title }}</a>
 					</h2>
 				</li>
 			{% endfor %}
 		</ul>
-
-
-	<h1>Recent QSO</h1>
+	</section>
+	<section>
+		<h1>Recent Projects</h1>
 		<ul>
-			{% for activity in site.activities %}
+			{% assign projects = (site.projects | reverse) %}
+			{% for project in projects limit:3 %}
 				<li>
-					<span class="post-meta">{{ activity.date | date: "%b %-d, %Y" }}</span>
+					<span class="post-meta">{{ project.date | date: "%b %-d, %Y" }}</span>
 					<h2>
-						<a class="post-link" href="{{ activity.url | prepend: site.baseurl }}">{{ activity.title }}</a>
+						<a class="post-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
 					</h2>
 				</li>
 			{% endfor %}
 		</ul>
+	</section>
 </div>

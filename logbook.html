@@ -1,0 +1,13 @@
+---
+title: Logbook
+permalink: /logbook/
+---
+{% assign contacts = (site.contacts | reverse) %}
+{% for contact in contacts  %}
+  <li>
+    <span class="post-meta">{{ contact.date | date: "%b %-d, %Y" }}</span>
+    <h2>
+      <a class="post-link" href="{{ contact.url | prepend: site.baseurl }}">{{ contact.title }}</a>
+    </h2>
+  </li>
+{% endfor %}

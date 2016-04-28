@@ -11,18 +11,22 @@ markdown: kramdown
 collections:
   contacts:
     output: true
-    permalink: /qso/:year/:title/
+    permalink: /logbook/:year/:title/
   projects:
     output: true
     permalink: /project/:year/:title/
 
 defaults:
   - scope:
+      path: ""
+    values:
+      layout: main
+  - scope:
       type: contacts
     values:
-      layout: contact
+      layout: main
   - scope:
       type: projects
     values:
-      layout: project
+      layout: main
 

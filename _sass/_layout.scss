@@ -2,158 +2,124 @@
  * Site Content
  */
 .site-content {
-    background: url(/img/2m-ground-plane-background.jpg) no-repeat center center fixed; 
-    background-size: cover;
-    margin-left: 350px;
-    min-height: 100%;
-    @include media-query($on-laptop) {
-        margin-left: 0;
-    }
+	background: url(/img/2m-ground-plane-background.jpg) no-repeat center center fixed; 
+	background-size: cover;
+	margin-left: 350px;
+	min-height: 100%;
+	@include media-query($on-laptop) {
+		margin-left: 0;
+	}
 
-    text-align: center;
+	text-align: center;
+
 }
 
 
 .site-content > div {
-    margin: 0 auto;
-    display: inline-block;
-    text-align: left;
+	margin: 0 auto;
+	display: inline-block;
+	text-align: left;
 }
 
 
 
-/**
- * Nav Panel
- */
 .nav-panel {
-    position: fixed;
-    top:0;
-    bottom: 0;
-    left: 0;
-    width: 350px;
-    background: url(/img/available-frequencies-70cm-yagi-antenna-so50.jpg) no-repeat center center; 
-    background-color: black;
-    @include media-query($on-laptop) {
-        left: -350px;
-    }
+	position: fixed;
+	top:0;
+	bottom: 0;
+	left: 0;
+	width: 350px;
+	background: url(/img/available-frequencies-70cm-yagi-antenna-so50.jpg) no-repeat center center; 
+	background-color: black;
+	@include media-query($on-laptop) {
+		left: -350px;
+	}
 
-    .nav-header {
-        text-align: center;
 
-        h2 {
-            margin: 15px;
-            margin-bottom: 5px;
-        }
-
-    }
-    .nav-links {
-        margin-top: 75px;
-        text-align: center;
-    }
-
-    .nav-links a {
-        display: block;
-        margin: 45px;
-    }
+	section {
+		margin: 35px 10px;
+		padding: 15px;
+		background: rgba(255,255,255,.8);
+	}
 }
 
 
 
-
-/**
- * Site header
- */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
-    background: rgba(255,255,255,.7);
+	text-align: center;
+
+	h1 {
+		display: inline-block;
+		margin-bottom: 5px;
+		font-size: 42px;
+		a {
+			text-decoration: none;
+			color: $text-color;
+		}
+
+		&:visited, &:hover {
+			color: $text-color;
+		}
+	}
+
+	h2 {
+		font-size: 36px;
+		a {
+				text-decoration: none;
+				color: $text-color;
+			}
+
+			&:visited, &:hover {
+				color: $text-color;
+			}
+	}
+
+	img {
+		height: 35px;
+		margin: 0 0 15px 15px;
+	}
 }
 
-.site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
+.page-content {
 
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
+	section.basic {
+	    margin: 35px;
+	    max-width: 1000px;
+
+	    @include media-query($on-laptop) {
+	    	margin: 35px 5px;
+	    }
+
+	    h1 {
+	        font-size: 32px;
+	    }
+	    h2 {
+	        font-size: 28px;
+	        font-weight: bold;
+	    }
+
+	    header {
+	        hr {
+	            display: inline-block;
+	            width: 33%;
+	            margin-bottom: 5px;
+			    @include media-query($on-laptop) {
+			    	display: block;
+			    }
+	        }
+	        h1 {
+	            display: inline-block;
+
+	        }
+	    }
+	    p {
+	        font-size: 26px;
+	    }
+	}
 }
 
-.site-nav {
-    float: right;
-    line-height: 56px;
 
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
-        }
-    }
-}
 
 
 
@@ -161,68 +127,68 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+	border-top: 1px solid $grey-color-light;
+	padding: $spacing-unit 0;
 }
 
 .footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+	font-size: 18px;
+	margin-bottom: $spacing-unit / 2;
 }
 
 .contact-list,
 .social-media-list {
-    list-style: none;
-    margin-left: 0;
+	list-style: none;
+	margin-left: 0;
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
+	font-size: 15px;
+	color: $grey-color;
+	margin-left: -$spacing-unit / 2;
+	@extend %clearfix;
 }
 
 .footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+	float: left;
+	margin-bottom: $spacing-unit / 2;
+	padding-left: $spacing-unit / 2;
 }
 
 .footer-col-1 {
-    width: -webkit-calc(55% - (#{$spacing-unit} / 2));
-    width:         calc(55% - (#{$spacing-unit} / 2));
+	width: -webkit-calc(55% - (#{$spacing-unit} / 2));
+	width:         calc(55% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+	width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+	width:         calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+	width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+	width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
+	.footer-col-1,
+	.footer-col-2 {
+		width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+		width:         calc(50% - (#{$spacing-unit} / 2));
+	}
 
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
+	.footer-col-3 {
+		width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+		width:         calc(100% - (#{$spacing-unit} / 2));
+	}
 }
 
 @include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
+	.footer-col {
+		float: none;
+		width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+		width:         calc(100% - (#{$spacing-unit} / 2));
+	}
 }
 
 
@@ -231,30 +197,30 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+	padding: $spacing-unit 0;
 }
 
 .page-heading {
-    font-size: 20px;
+	font-size: 20px;
 }
 
 .post-list {
-    margin-left: 0;
-    list-style: none;
+	margin-left: 0;
+	list-style: none;
 
-    > li {
-        margin-bottom: $spacing-unit;
-    }
+	> li {
+		margin-bottom: $spacing-unit;
+	}
 }
 
 .post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
+	font-size: $small-font-size;
+	color: $grey-color;
 }
 
 .post-link {
-    display: block;
-    font-size: 24px;
+	display: block;
+	font-size: 24px;
 }
 
 
@@ -263,43 +229,43 @@
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+	margin-bottom: $spacing-unit;
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+	font-size: 42px;
+	letter-spacing: -1px;
+	line-height: 1;
 
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
+	@include media-query($on-laptop) {
+		font-size: 36px;
+	}
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
+	margin-bottom: $spacing-unit;
 
-    h2 {
-        font-size: 32px;
+	h2 {
+		font-size: 32px;
 
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
+		@include media-query($on-laptop) {
+			font-size: 28px;
+		}
+	}
 
-    h3 {
-        font-size: 26px;
+	h3 {
+		font-size: 26px;
 
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
+		@include media-query($on-laptop) {
+			font-size: 22px;
+		}
+	}
 
-    h4 {
-        font-size: 20px;
+	h4 {
+		font-size: 20px;
 
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
+		@include media-query($on-laptop) {
+			font-size: 18px;
+		}
+	}
 }
