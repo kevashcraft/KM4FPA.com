@@ -30,3 +30,5 @@ defaults:
     values:
       layout: main
 
+exclude:
+  - build
