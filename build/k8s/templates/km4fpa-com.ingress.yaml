@@ -1,0 +1,30 @@
+kind: Ingress
+apiVersion: extensions/v1beta1
+metadata:
+  name: km4fpa-com
+  labels:
+    app: km4fpa-com
+    project: km4fpa-com
+  annotations:
+    certmanager.k8s.io/acme-challenge-type: 'http01'
+    certmanager.k8s.io/issuer: 'letsencrypt-prod'
+spec:
+  tls:
+  - secretName: km4fpa-com-tls
+    hosts:
+    - km4fpa.com
+    - www.km4fpa.com
+  rules:
+  - host: km4fpa.com
+    http:
+      paths:
+      - backend:
+          serviceName: km4fpa-com-www-redirect
+          servicePort: 80
+  - host: www.km4fpa.com
+    http:
+      paths:
+      - backend:
+          serviceName: km4fpa-com
+          servicePort: 80
+

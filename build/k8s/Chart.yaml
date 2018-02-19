@@ -1,0 +1,6 @@
+apiVersion: v1
+appVersion: "1.0"
+description: KM4FPA.com's Helm chart for Kubernetes
+name: km4fpa-com
+version: 0.1.0
+
